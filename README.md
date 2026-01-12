@@ -14,6 +14,10 @@ Empowering 2.8M Saudi students in remote regions with personalized, curriculum-a
 - **Curriculum RAG:** Focused on Saudi Ministry of Education textbooks.
 - **Parent Confidence Mode:** AI-generated WhatsApp updates for parents.
 
-## 🔗 Links
-- [Figma Prototype](رابط_فيجما_هنا)
-- [Live PartyRock Demo]([رابط_بارتي_روك_هنا](https://mudaris.pages.dev/))
+## 🔗 Project Links
+| Resource | Link |
+| :--- | :--- |
+| **🌍 Live Demo** | [https://mudarris.pages.dev/](https://mudarris.pages.dev/) |
+| **🤖 AI Engine (PartyRock)** | [رابط_بارتي_روك_الخاص_بك] |
+| **🎨 Figma Design** | [رابط_ملف_فيقما_الخاص_بك] |
+| **📜 Documentation** | [Link to GitHub Wiki or Docs] |
