@@ -16,4 +16,4 @@ Empowering 2.8M Saudi students in remote regions with personalized, curriculum-a
 
 ## 🔗 Links
 - [Figma Prototype](رابط_فيجما_هنا)
-- [Live PartyRock Demo](رابط_بارتي_روك_هنا)
+- [Live PartyRock Demo]([رابط_بارتي_روك_هنا](https://mudaris.pages.dev/))
