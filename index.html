@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudarris AI | Personal Tutor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'mudarris-blue': '#1E3A8A',
+              'mudarris-blue-light': '#F0F7FF',
+              'mudarris-blue-deep': '#172554',
+              'saudi-gold': '#D4AF37',
+              'saudi-gold-light': '#FAF7ED',
+            },
+            spacing: {
+              '18': '4.5rem',
+            },
+            borderRadius: {
+              'btn': '8px',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        :root {
+            --mudarris-blue: #1E3A8A;
+            --saudi-gold: #D4AF37;
+        }
+        body { 
+          font-family: 'Plus Jakarta Sans', sans-serif; 
+          background-color: #FAFAFA;
+          color: #111827;
+        }
+        .bg-pattern {
+          background-image: radial-gradient(#1e3a8a 0.8px, transparent 0.8px);
+          background-size: 24px 24px;
+          opacity: 0.05;
+        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        @keyframes pop {
+          0% { transform: scale(0.98); opacity: 0; }
+          100% { transform: scale(1); opacity: 1; }
+        }
+        .animate-pop { animation: pop 0.3s ease-out forwards; }
+
+        .shadow-sm-soft {
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        }
+        .shadow-md-soft {
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+        .shadow-lg-soft {
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+        }
+        
+        .chat-bubble-user {
+          background-color: #1E3A8A;
+          color: white;
+        }
+        
+        .voice-bar {
+          display: inline-block;
+          width: 3px;
+          height: 10px;
+          background: var(--mudarris-blue);
+          margin: 0 1px;
+          border-radius: 10px;
+          animation: wave 1s ease-in-out infinite;
+        }
+        @keyframes wave {
+          0%, 100% { height: 6px; }
+          50% { height: 16px; }
+        }
+
+        /* 8pt grid based rhythm */
+        .grid-rhythm {
+          line-height: 1.5;
+        }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3",
+        "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+      }
+    }
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="overflow-hidden h-screen antialiased">
+    <div id="root" class="h-full"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

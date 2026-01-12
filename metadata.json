@@ -1,0 +1,9 @@
+
+{
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "name": "Mudarris AI",
+  "description": "Interactive AI Tutor for Saudi Students"
+}
