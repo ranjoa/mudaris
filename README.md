@@ -17,7 +17,6 @@ Empowering 2.8M Saudi students in remote regions with personalized, curriculum-a
 ## 🔗 Project Links
 | Resource | Link |
 | :--- | :--- |
-| **🌍 Demo** |
+| **🌍 Live Demo** | https://mudaris.pages.dev/
 | **🤖 AI Engine (PartyRock)** |
 | **LINK of the app** | https://mudaris.pages.dev/
-| **📜 Documentation** |
