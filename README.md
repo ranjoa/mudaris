@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Mudarris AI (مُدرّس) - Saudi AI Tutor
 
-# Run and deploy your AI Studio app
+## 🚀 Vision
+Empowering 2.8M Saudi students in remote regions with personalized, curriculum-aligned AI tutoring.
 
-This contains everything you need to run your app locally.
+## 🛠 Tech Stack
+- **AI Core:** Amazon Bedrock (Claude 3.5)
+- **Prototyping:** AWS PartyRock
+- **Design:** Figma
+- **Logic:** Socratic Method Prompting
 
-View your app in AI Studio: https://ai.studio/apps/drive/1wRMiDr7XWa-dBKmIMiQH0oJi4jJkMaGi
+## 💡 Key Features
+- **Socratic Tutoring:** Guides students without giving direct answers.
+- **Curriculum RAG:** Focused on Saudi Ministry of Education textbooks.
+- **Parent Confidence Mode:** AI-generated WhatsApp updates for parents.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🔗 Links
+- [Figma Prototype](رابط_فيجما_هنا)
+- [Live PartyRock Demo](رابط_بارتي_روك_هنا)
