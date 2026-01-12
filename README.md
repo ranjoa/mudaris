@@ -1,24 +1,30 @@
-# Mudarris AI (مُدرّس) - Saudi AI Tutor
+# Mudarris AI (مُدرّس)
+**AI-Powered Socratic Tutor for the Saudi Curriculum**
 
-## 🚀 Vision
-Empowering 2.8M Saudi students in remote regions with personalized, curriculum-aligned AI tutoring.
+## 📌 Overview
+Mudarris AI provides personalized, curriculum-aligned tutoring for students in Saudi Arabia. It uses the Socratic method to encourage critical thinking by guiding students through questions rather than giving direct answers.
 
 ## 🛠 Tech Stack
-- **AI Core:** Amazon Bedrock (Claude 3.5)
-- **Prototyping:** AWS PartyRock
-- **Design:** Figma
+- **Core LLM:** Amazon Bedrock (Claude 3.5)
+- **Knowledge Base:** RAG (Saudi MoE Textbooks)
+- **Framework:** Cloudflare Pages / Node.js
 - **Logic:** Socratic Method Prompting
 
-## 💡 Key Features
-- **Socratic Tutoring:** Guides students without giving direct answers.
-- **Curriculum RAG:** Focused on Saudi Ministry of Education textbooks.
-- **Parent Confidence Mode:** AI-generated WhatsApp updates for parents.
+## ✨ Key Features
+- **Socratic Dialogue:** Guided inquiry-based learning.
+- **Saudi MoE Sync:** Direct alignment with national textbooks via RAG.
+- **Parent Mode:** AI-generated progress updates for parents.
 
-## 🔗 Project Links
-| Resource | Link |
-| :--- | :--- |
-| **demo link** | https://drive.google.com/file/d/1Mo8qxblTIrbwDlzFyps7vDzS4B33Dg0W/view?usp=sharing
-| **LINK of the app** | https://mudaris.pages.dev/
-| **AI Engine (PartyRock)** | https://partyrock.aws/u/rana22/AVGq3FAxF/mudaris
-| **Slide Deck** |
+---
 
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- AWS Account (Access to Bedrock Claude 3.5)
+
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/mudaris-ai.git](https://github.com/your-username/mudaris-ai.git)
+   cd mudaris-ai
