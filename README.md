@@ -15,16 +15,9 @@ Mudarris AI provides personalized, curriculum-aligned tutoring for students in S
 - **Saudi MoE Sync:** Direct alignment with national textbooks via RAG.
 - **Parent Mode:** AI-generated progress updates for parents.
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18+)
-- AWS Account (Access to Bedrock Claude 3.5)
-
-### Installation
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/mudaris-ai.git](https://github.com/your-username/mudaris-ai.git)
-   cd mudaris-ai
+## 🔗 Project Links
+| Resource | Link |
+| :--- | :--- |
+| **demo link** | https://drive.google.com/file/d/1Mo8qxblTIrbwDlzFyps7vDzS4B33Dg0W/view?usp=sharing
+| **LINK of the app** | https://mudaris.pages.dev/
+| **AI Engine (PartyRock)** | https://partyrock.aws/u/rana22/AVGq3FAxF/mudaris
